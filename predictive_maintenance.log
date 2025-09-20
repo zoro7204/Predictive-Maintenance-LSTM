@@ -1,0 +1,131 @@
+2025-05-03 19:20:09,127 - ERROR - Error loading model: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+2025-05-03 19:21:13,131 - ERROR - Error loading model: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+2025-05-03 19:27:17,980 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 19:27:17,980 - INFO - Loaded model: lstm_model.h5
+2025-05-03 19:27:18,046 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 19:27:18,061 - INFO - Loaded true RUL values from RUL_FD001.txt
+2025-05-03 19:27:18,061 - INFO - Using final evaluation mode (last window per engine)...
+2025-05-03 19:27:18,126 - INFO - Created 100 test sequences of shape (30, 21)
+2025-05-03 19:27:18,399 - INFO - Predictions generated successfully.
+2025-05-03 19:27:18,400 - INFO - Model Evaluation on Test Set: MAE = 75.43, RMSE = 86.14, R2 = -3.30
+2025-05-03 19:29:11,002 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 19:29:11,004 - INFO - Loaded model: lstm_model.h5
+2025-05-03 19:29:11,030 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 19:29:11,037 - INFO - Loaded true RUL values from RUL_FD001.txt
+2025-05-03 19:29:11,039 - INFO - Using final evaluation mode (last window per engine)...
+2025-05-03 19:29:11,101 - INFO - Created 100 test sequences of shape (30, 21)
+2025-05-03 19:29:11,376 - INFO - Predictions generated successfully.
+2025-05-03 19:29:11,378 - INFO - Model Evaluation on Test Set: MAE = 75.43, RMSE = 86.14, R2 = -3.30
+2025-05-03 19:29:14,560 - INFO - test_make_last_sequences passed.
+2025-05-03 19:30:09,131 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 19:30:09,137 - INFO - Loaded model: lstm_model.h5
+2025-05-03 19:30:09,160 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 19:30:09,172 - INFO - Loaded true RUL values from RUL_FD001.txt
+2025-05-03 19:30:09,173 - INFO - Using final evaluation mode (last window per engine)...
+2025-05-03 19:30:09,243 - INFO - Created 100 test sequences of shape (30, 21)
+2025-05-03 19:30:09,587 - INFO - Predictions generated successfully.
+2025-05-03 19:30:09,588 - INFO - Model Evaluation on Test Set: MAE = 75.43, RMSE = 86.14, R2 = -3.30
+2025-05-03 19:30:11,694 - INFO - test_make_last_sequences passed.
+2025-05-03 19:45:40,784 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 19:45:40,786 - INFO - Loaded model: lstm_model.h5
+2025-05-03 19:45:40,819 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 19:45:40,829 - INFO - Loaded true RUL values from RUL_FD001.txt
+2025-05-03 19:45:40,830 - INFO - Using final evaluation mode (last window per engine)...
+2025-05-03 19:45:40,903 - INFO - Created 100 test sequences of shape (30, 21)
+2025-05-03 19:45:41,186 - INFO - Predictions generated successfully.
+2025-05-03 19:45:41,187 - INFO - Model Evaluation on Test Set: MAE = 75.43, RMSE = 86.14, R2 = -3.30
+2025-05-03 19:54:41,433 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 19:54:41,440 - INFO - Loaded model: lstm_model.h5
+2025-05-03 19:54:41,469 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 19:56:26,129 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 19:56:26,129 - INFO - Loaded model: lstm_model.h5
+2025-05-03 19:56:26,166 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 19:56:26,173 - INFO - Loaded true RUL values from RUL_FD001.txt
+2025-05-03 19:56:26,175 - INFO - Using final evaluation mode (last window per engine)...
+2025-05-03 19:56:26,224 - INFO - Created 100 test sequences of shape (30, 21)
+2025-05-03 19:56:26,561 - INFO - Predictions generated successfully.
+2025-05-03 19:56:26,563 - INFO - Model Evaluation on Test Set: MAE = 75.43, RMSE = 86.14, R2 = -3.30
+2025-05-03 20:02:03,873 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 20:02:03,881 - INFO - Loaded model: lstm_model.h5
+2025-05-03 20:02:03,937 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 20:02:03,954 - INFO - Loaded true RUL values from RUL_FD001.txt
+2025-05-03 20:02:03,958 - INFO - Using final evaluation mode (last window per engine)...
+2025-05-03 20:02:04,056 - INFO - Created 100 test sequences of shape (30, 21)
+2025-05-03 20:02:04,357 - INFO - Predictions generated successfully.
+2025-05-03 20:02:04,359 - INFO - Model Evaluation on Test Set: MAE = 75.43, RMSE = 86.14, R2 = -3.30
+2025-05-03 20:02:26,064 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 20:02:26,064 - INFO - Loaded model: lstm_model.h5
+2025-05-03 20:02:26,101 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 20:02:26,112 - INFO - Loaded true RUL values from RUL_FD001.txt
+2025-05-03 20:02:26,114 - INFO - Using full evaluation mode (all possible sequences)...
+2025-05-03 20:02:29,241 - INFO - Created 10096 test sequences of shape (30, 21)
+2025-05-03 20:02:30,321 - INFO - Predictions generated successfully.
+2025-05-03 20:02:30,321 - INFO - Model Evaluation on Test Set: MAE = 62.33, RMSE = 74.53, R2 = -2.33
+2025-05-03 21:38:15,174 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 21:38:15,176 - INFO - Loaded model: lstm_model.h5
+2025-05-03 21:38:15,209 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 21:38:15,215 - INFO - Loaded true RUL values from RUL_FD001.txt
+2025-05-03 21:38:15,216 - INFO - Using full evaluation mode (all possible sequences)...
+2025-05-03 21:38:18,049 - INFO - Created 10096 test sequences of shape (30, 21)
+2025-05-03 21:38:19,055 - INFO - Predictions generated successfully.
+2025-05-03 21:38:19,055 - INFO - Model Evaluation on Test Set: MAE = 62.33, RMSE = 74.53, R2 = -2.33
+2025-05-03 21:38:32,522 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 21:38:32,537 - INFO - Loaded model: lstm_model.h5
+2025-05-03 21:38:32,564 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 21:38:32,569 - INFO - Loaded true RUL values from RUL_FD001.txt
+2025-05-03 21:38:32,571 - INFO - Using final evaluation mode (last window per engine)...
+2025-05-03 21:38:32,643 - INFO - Created 100 test sequences of shape (30, 21)
+2025-05-03 21:38:32,949 - INFO - Predictions generated successfully.
+2025-05-03 21:38:32,950 - INFO - Model Evaluation on Test Set: MAE = 75.43, RMSE = 86.14, R2 = -3.30
+2025-05-03 21:40:25,738 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 21:40:25,738 - INFO - Loaded model: lstm_model.h5
+2025-05-03 21:40:25,768 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 21:40:25,774 - INFO - Loaded true RUL values from RUL_FD001.txt
+2025-05-03 21:40:25,774 - INFO - Using final evaluation mode (last window per engine)...
+2025-05-03 21:40:25,838 - INFO - Created 100 test sequences of shape (30, 21)
+2025-05-03 21:40:26,126 - INFO - Predictions generated successfully.
+2025-05-03 21:40:26,127 - INFO - Model Evaluation on Test Set: MAE = 75.43, RMSE = 86.14, R2 = -3.30
+2025-05-03 21:40:39,200 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 21:40:39,200 - INFO - Loaded model: lstm_model.h5
+2025-05-03 21:40:39,237 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 21:40:39,244 - INFO - Loaded true RUL values from RUL_FD001.txt
+2025-05-03 21:40:39,247 - INFO - Using final evaluation mode (last window per engine)...
+2025-05-03 21:40:39,317 - INFO - Created 100 test sequences of shape (30, 21)
+2025-05-03 21:40:39,572 - INFO - Predictions generated successfully.
+2025-05-03 21:40:39,573 - INFO - Model Evaluation on Test Set: MAE = 75.43, RMSE = 86.14, R2 = -3.30
+2025-05-03 21:40:50,707 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 21:40:50,711 - INFO - Loaded model: lstm_model.h5
+2025-05-03 21:40:50,734 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 21:40:50,741 - INFO - Loaded true RUL values from RUL_FD001.txt
+2025-05-03 21:40:50,745 - INFO - Using full evaluation mode (all possible sequences)...
+2025-05-03 21:40:53,617 - INFO - Created 10096 test sequences of shape (30, 21)
+2025-05-03 21:40:54,577 - INFO - Predictions generated successfully.
+2025-05-03 21:40:54,577 - INFO - Model Evaluation on Test Set: MAE = 62.33, RMSE = 74.53, R2 = -2.33
+2025-05-03 21:45:51,197 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 21:45:51,197 - INFO - Loaded model: lstm_model.h5
+2025-05-03 21:45:51,240 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 21:45:51,248 - INFO - Loaded true RUL values from RUL_FD001.txt
+2025-05-03 21:45:51,249 - INFO - Using final evaluation mode (last window per engine)...
+2025-05-03 21:45:51,308 - INFO - Created 100 test sequences of shape (30, 21)
+2025-05-03 21:45:51,614 - INFO - Predictions generated successfully.
+2025-05-03 21:45:51,615 - INFO - Model Evaluation on Test Set: MAE = 75.43, RMSE = 86.14, R2 = -3.30
+2025-05-03 21:47:16,952 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 21:47:16,968 - INFO - Loaded model: lstm_model.h5
+2025-05-03 21:47:17,006 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 21:47:17,028 - INFO - Loaded true RUL values from RUL_FD001.txt
+2025-05-03 21:47:17,032 - INFO - Using final evaluation mode (last window per engine)...
+2025-05-03 21:47:17,192 - INFO - Created 100 test sequences of shape (30, 21)
+2025-05-03 21:47:17,666 - INFO - Predictions generated successfully.
+2025-05-03 21:47:17,668 - INFO - Model Evaluation on Test Set: MAE = 75.43, RMSE = 86.14, R2 = -3.30
+2025-05-03 21:47:52,922 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 21:47:52,924 - INFO - Loaded model: lstm_model.h5
+2025-05-03 21:47:52,973 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 21:47:52,997 - INFO - Loaded true RUL values from RUL_FD001.txt
+2025-05-03 21:47:52,999 - INFO - Using final evaluation mode (last window per engine)...
+2025-05-03 21:47:53,102 - INFO - Created 100 test sequences of shape (30, 21)
+2025-05-03 21:47:53,455 - INFO - Predictions generated successfully.
+2025-05-03 21:47:53,456 - INFO - Model Evaluation on Test Set: MAE = 75.43, RMSE = 86.14, R2 = -3.30
+2025-05-03 21:48:10,279 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-03 21:48:10,292 - INFO - Loaded model: lstm_model.h5
+2025-05-03 21:48:10,321 - INFO - Loaded and preprocessed data from test_FD001.txt
+2025-05-03 21:48:10,329 - INFO - Loaded true RUL values from RUL_FD001.txt
