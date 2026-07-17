@@ -14,34 +14,38 @@ This project predicts the Remaining Useful Life (RUL) of aircraft turbofan engin
 
 Unlike traditional implementations, this project includes:
 
-- Hybrid CNN-LSTM architecture
-- Statistical feature fusion
-- Interactive Streamlit dashboard
-- React frontend
-- Flask backend APIs
-- Model optimization
-- Ablation study
-- Single engine prediction
-- Batch evaluation
-- Performance visualization
+- Hybrid CNN-LSTM Architecture
+- Statistical Feature Fusion
+- Interactive Streamlit Dashboard
+- Model Optimization
+- Ablation Study
+- Single Engine Prediction
+- Batch Evaluation
+- Performance Visualization
 
 ---
 
-# Features
+# Dashboard Preview
 
-- Hybrid CNN-LSTM architecture
-- Statistical feature fusion
-- Remaining Useful Life prediction
-- NASA C-MAPSS FD001 dataset support
-- Interactive Streamlit dashboard
-- React-based web interface
-- Flask backend APIs
-- Single engine prediction
-- Batch engine evaluation
-- Model comparison
-- Ablation study
-- Performance visualization
-- Model upload support
+| | |
+| :---: | :---: |
+| ![Dashboard Home](assets/dashboard-home.png) | ![Prediction Result](assets/prediction-result.png) |
+| ![Evaluation](assets/evaluation.png) | ![Sensor Readings](assets/sensor-readings.png) |
+
+---
+
+# Key Features
+
+- Hybrid CNN-LSTM Architecture
+- Statistical Feature Fusion
+- Interactive Streamlit Dashboard
+- Upload Custom Model (.h5)
+- Upload Custom Scaler (.pkl)
+- Single Engine Prediction
+- Batch Evaluation
+- Sensor Visualization
+- Hyperparameter Optimization
+- Ablation Study
 
 ---
 
@@ -78,15 +82,14 @@ Remaining Useful Life Prediction
 ```
 Predictive-Maintenance-LSTM/
 
-│── frontend/
+│── assets/
 │── app_streamlit.py
-│── backend.py
+│── ablation_study.py
 │── case_study.py
 │── evaluate_model.py
 │── hybrid_model.py
 │── model_train.py
 │── model_optimize.py
-│── ablation_study.py
 │── SlidingWindow.py
 │── requirements.txt
 │── train_FD001.txt
@@ -98,33 +101,14 @@ Predictive-Maintenance-LSTM/
 
 # Tech Stack
 
-### Languages
-
 - Python
-- JavaScript
-
-### Machine Learning
-
 - TensorFlow
 - Keras
+- Streamlit
 - NumPy
 - Pandas
 - Scikit-learn
-
-### Backend
-
-- Flask
-- Flask-CORS
-
-### Frontend
-
-- React
-- Vite
-
-### Visualization
-
 - Matplotlib
-- Streamlit
 
 ---
 
@@ -151,17 +135,15 @@ This hybrid approach improves prediction performance while maintaining lightweig
 
 # Dashboard
 
-The project includes a full interactive Streamlit dashboard supporting:
+The dashboard provides:
 
-- Model upload
-- Scaler upload
-- Single engine prediction
+- Upload trained models (.h5)
+- Upload scaler (.pkl)
+- Single engine RUL prediction
 - Batch evaluation
 - Prediction visualization
-- Sensor trend visualization
+- Sensor trend analysis
 - Performance metrics
-
-> Dashboard screenshots will be added below.
 
 ---
 
@@ -206,30 +188,10 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
----
-
-# Run Streamlit Dashboard
+Run the application
 
 ```bash
 streamlit run app_streamlit.py
-```
-
----
-
-# Run Flask Backend
-
-```bash
-python backend.py
-```
-
----
-
-# Run React Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
 ```
 
 ---
@@ -249,13 +211,8 @@ npm run dev
 
 **Veeresh**
 
-GitHub
-
-https://github.com/zoro7204
-
-LinkedIn
-
-https://linkedin.com/in/veeresh-k7204
+- GitHub: https://github.com/zoro7204
+- LinkedIn: https://linkedin.com/in/veeresh-k7204
 
 ---
 
