@@ -42,6 +42,12 @@ The following diagram illustrates the complete workflow of the proposed Hybrid C
 
 ---
 
+# Demo
+
+![Project Demo](assets/demo.gif)
+
+---
+
 # Key Features
 
 - Hybrid CNN-LSTM Architecture
@@ -54,34 +60,6 @@ The following diagram illustrates the complete workflow of the proposed Hybrid C
 - Sensor Visualization
 - Hyperparameter Optimization
 - Ablation Study
-
----
-
-# Project Architecture
-
-```
-Sensor Data
-      │
-      ▼
-Data Preprocessing
-      │
-Sliding Window Generation
-      │
-      ▼
-CNN Feature Extraction
-      │
-      ▼
-LSTM Temporal Learning
-      │
-      ▼
-Statistical Feature Fusion
-      │
-      ▼
-Dense Layers
-      │
-      ▼
-Remaining Useful Life Prediction
-```
 
 ---
 
@@ -107,16 +85,23 @@ Predictive-Maintenance-LSTM/
 
 ---
 
-# Tech Stack
+## Tech Stack
 
+**Programming Language**
 - Python
+
+**Machine Learning**
 - TensorFlow
 - Keras
-- Streamlit
+- Scikit-learn
+
+**Data Processing**
 - NumPy
 - Pandas
-- Scikit-learn
+
+**Visualization**
 - Matplotlib
+- Streamlit
 
 ---
 
@@ -155,17 +140,17 @@ The dashboard provides:
 
 ---
 
-# Results
+## Results
 
-The Hybrid CNN-LSTM model was evaluated using the NASA C-MAPSS FD001 dataset.
+The Hybrid CNN-LSTM model was evaluated on the NASA C-MAPSS FD001 dataset.
 
-Evaluation metrics include:
+| Metric | Value |
+|--------|------:|
+| MAE | 22.91 cycles |
+| RMSE | 30.32 cycles |
+| R² Score | 0.47 |
 
-- Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
-- R² Score
-
-Prediction plots and evaluation graphs are generated automatically through the dashboard.
+The evaluation script loads the trained model (`hybrid_cnn_lstm_model.h5`) and reports prediction performance on the FD001 test set.
 
 ---
 
