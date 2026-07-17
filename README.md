@@ -215,6 +215,21 @@ streamlit run app_streamlit.py
 
 ---
 
+## Key Learnings
+
+During this project, I gained practical experience in:
+
+- Time-series data preprocessing using sliding window techniques
+- Remaining Useful Life (RUL) prediction with the NASA C-MAPSS FD001 dataset
+- Designing and training Hybrid CNN-LSTM deep learning models
+- Statistical feature fusion for improving prediction performance
+- Model evaluation using MAE, RMSE, and R² metrics
+- Hyperparameter optimization and ablation studies
+- Building an interactive Streamlit dashboard for model inference and visualization
+- Managing machine learning models using TensorFlow, Keras, and Scikit-learn
+
+---
+
 # Author
 
 **Veeresh**
