@@ -34,6 +34,14 @@ Unlike traditional implementations, this project includes:
 
 ---
 
+# System Architecture
+
+The following diagram illustrates the complete workflow of the proposed Hybrid CNN-LSTM predictive maintenance system, from data preprocessing to Remaining Useful Life (RUL) prediction and interactive visualization through the Streamlit dashboard.
+
+![System Architecture](assets/architecture-diagram.png)
+
+---
+
 # Key Features
 
 - Hybrid CNN-LSTM Architecture
