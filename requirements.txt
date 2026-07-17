@@ -1,0 +1,10 @@
+tensorflow
+tensorflow-model-optimization
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+streamlit
+flask
+flask-cors

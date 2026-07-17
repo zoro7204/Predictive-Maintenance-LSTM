@@ -1,0 +1,32 @@
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+tf_env/
+venv_312/
+
+# Node.js dependencies
+node_modules/
+frontend/node_modules/
+
+# Execution logs
+*.log
+
+# Uploaded/Temporary files (Trained production models are kept)
+uploaded_model.h5
+uploaded_scaler.pkl
+
+# IDE / System configurations
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
